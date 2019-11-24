@@ -31,7 +31,7 @@ export default {
 
       this.scene = new Scene();
 
-      let geometry = new BoxGeometry(0.2, 0.2, 0.2);
+      let geometry = new BoxGeometry(0.8, 0.2, 0.2);
       let material = new MeshNormalMaterial();
 
       this.mesh = new Mesh(geometry, material);
